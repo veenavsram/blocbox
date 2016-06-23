@@ -1,0 +1,65 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quando', Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.one-half, .one-third {
+  width: 96%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 0, 2%, 20px;
+}
+
+#hero {
+  color: white;
+  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/background.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.video {
+  
+}
