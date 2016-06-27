@@ -239,8 +239,8 @@ header nav ul > li {
 }
 
 .testimage {
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: 150px;
+  margin-top: -10px;
 }
 
 #testimonialstab {
@@ -262,6 +262,12 @@ header nav ul > li {
 
 .pricing:after {
   clear:both;
+}
+
+.pricing h1 {
+  font-size: 3em;
+  margin-bottom: -10px;
+  color: #004b66;
 }
 
 .pricingbox {
@@ -303,16 +309,16 @@ header nav ul > li {
   clear: both;
   margin-top: 30px;
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 .tab {
   float: left;
+  margin-left: 275px;
 }
 .tab label {
   background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/testimonialbutton.png) no-repeat center center; 
   padding: 20px;
-  margin-left: 300px;
+  
   /*border: 1px solid #ccc; */
   
 
