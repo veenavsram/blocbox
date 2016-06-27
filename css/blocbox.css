@@ -4,6 +4,7 @@ html, body {
 
 body {
   font-family: 'Rubik', Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
   color: #333333;
 }
 
@@ -20,11 +21,76 @@ p {
 a {
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+
+header nav {
+  padding: 3% 0;
+  font-size: 1em;
+}
+
+header {
+  margin-bottom: 0;
+}
+
+header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:-20px;;
+ }
+
+header nav ul > li {
+  float: left;
+  display: inline;
+  padding: 25px 20px;
+}
+
+.footer {
+  text-align: center;
+  align-content: center;
+  background: #004b66;
+  padding: 10px 0;
+  color: white;
+}
+
+.footer p {
+  color: #a4a3a3;
+}
+
+.footer a {
+  color: white;
+}
+
+.contactbuttons {
+  padding-top: 20px;
+  width: 50%;
+  margin-left: 41%;
+  color: #d96302;
+
+}
+
+.social {
+  float: left;
+  margin-left: 30px;
+}
+
+.link {
+  float: left;
+  margin-left: 30px;
+}
+
+.links {
+  width: 50%;
+  margin-left: 34%;
+}
+
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+
+  padding-left: 5px;
+  padding-right: 5px;
   position: relative;
 }
 
@@ -39,11 +105,70 @@ a {
 }
 
 .one-half, .one-third {
-  width: 96%;
+  width: 94%;
   float: left;
   position: relative;
   min-height: 1px;
-  margin: 0, 2%, 20px;
+  margin: 0, 4%, 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  
+  .one-half {
+    width: 48%;
+  }
+  
+  .one-third {
+    width: 25.33333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 10%;
+  }
+}
+
+#logo {
+  vertical-align: middle;
+  float: left;
+  margin-left: 5%;
+}
+
+#herotext {
+  padding-left: 50px;
+  float:right;
+  width: 45%;
+}
+
+#herotext > a {
+  padding: 5px 15px;
+  color: black;
+  background: #d96302;
+  margin-top: 50px;
+  margin-left: 25%;
+}
+
+.herocaption {
+  padding-left: 50px;
+  font-size: 2.3em;
+  text-shadow: 2px 2px #3E3D3D;
+}
+
+#herodesc {
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
 }
 
 #hero {
@@ -56,10 +181,159 @@ a {
   height: 100vh;
 }
 
-ul {
-  list-style: none;
+#menu {
+  float: left;
 }
 
-.video {
+#features {
+  clear:both;
+}
+
+.feature {
+  clear:both;
+}
+
+.featuredetailleft {
+  margin-top: 90px;
+  width: 400px;
+  margin-right: -50px;
+  text-align: right;
+  padding: 10px 50px;
+}
+
+.featuredetailright {
+  margin-top: 80px;
+  width: 400px;
+  text-align: left;
+  margin-right: 100px;
+
+  padding: 10px 0;
+}
+
+#signbuttons {
+  float: right;
   
+}
+
+#signbuttons a {
+  color: white;
+}
+
+
+.testimonials {
+  margin-top: 450px;
+  background-color: #004b66;
+  padding: 50px 100px;
+}
+
+#testimonialsheading {
+  text-align: center;
+  color: white;
+}
+
+.testdesc {
+  float: right;
+  color: white;
+  width: 700px;
+  margin-top: 30px;
+}
+
+.testimage {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#testimonialstab {
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing {
+  text-align: center;
+  padding: 50px 0;
+  clear:both;
+}
+
+.pricing:after {
+  content: " ";
+  display: table;
+}
+
+.pricing:after {
+  clear:both;
+}
+
+.pricingbox {
+  padding: 20px 0 30px 0;
+  border: 1px solid lightgray;
+  margin-left: 70px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 1px lightgray;
+}
+
+.testdot {
+  float: left;
+  padding-top: 30px;
+  
+}
+
+.starttrial {
+  margin-top: 50px;
+}
+
+.starttrial1 {
+  margin-top: 85px;
+}
+
+.videoimageleft {
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 20px 0;
+}
+.videoimageright {
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+.tabs {
+  position: relative;   
+  min-height: 270px; /* This part sucks */
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/testimonialbutton.png) no-repeat center center; 
+  padding: 20px;
+  margin-left: 300px;
+  /*border: 1px solid #ccc; */
+  
+
+  position: relative;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  background: #004b66;
+  right: 0;
+  bottom: 0;
+  padding: 40px 0 0 0;
+}
+[type=radio]:checked ~ label {
+  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/testimonialbuttonselected.png) no-repeat center center; 
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
 }
