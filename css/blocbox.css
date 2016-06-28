@@ -173,7 +173,7 @@ header nav ul > li {
 
 #hero {
   color: white;
-  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/background.jpg) no-repeat center center; 
+  background: url(images/background.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -316,7 +316,7 @@ header nav ul > li {
   margin-left: 275px;
 }
 .tab label {
-  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/testimonialbutton.png) no-repeat center center; 
+  background: url(images/testimonialbutton.png) no-repeat center center; 
   padding: 20px;
   
   /*border: 1px solid #ccc; */
@@ -337,7 +337,7 @@ header nav ul > li {
   padding: 40px 0 0 0;
 }
 [type=radio]:checked ~ label {
-  background: url(/Users/v644093/Downloads/Bloc/BlocBox/images/testimonialbuttonselected.png) no-repeat center center; 
+  background: url(images/testimonialbuttonselected.png) no-repeat center center; 
   z-index: 2;
 }
 [type=radio]:checked ~ label ~ .content {
